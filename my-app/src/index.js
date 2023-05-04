@@ -5,18 +5,21 @@ import App from './App';
 import LoginForm from './components/LoginForm';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowsersRouter,
+  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom"
+import SignupForm from './components/SignupForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowsersRouter>
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/signupform" element={<SignupForm />} />
+      <Route path="/loginform" element={<LoginForm />} />
     </Routes>
-  </BrowsersRouter>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
