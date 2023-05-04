@@ -27,6 +27,7 @@ function MyReviews() {
   
 
   return (
+    <>
     <section class="hero is-small">
     
     {/* <!-- Hero content: will be in the middle --> */}
@@ -40,6 +41,22 @@ function MyReviews() {
           </nav>
     </div>
 </section>
+
+<div class="review">
+<div class="container">
+  <div class="form-container">
+    <form class="new-food-form">
+      <div class="field">
+        <h1  class="has-text-link-dark">Add a new food review!</h1> 
+        <label for="food_name">
+        Name:
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</>
   )
 
 
