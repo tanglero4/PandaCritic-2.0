@@ -44,7 +44,7 @@ function MyReviews() {
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
            
-            <a class="navbar-item">
+            <a class="navbar-item" id="logout">
               Logout
             </a>
             <span class="navbar-item">
@@ -65,7 +65,7 @@ function MyReviews() {
   <div class="hero-body">
     <div class="container has-text-centered">
       <p class="title">
-        PandaCritic
+        PandaCritic 🐼
       </p>
     </div>
   </div>
@@ -76,7 +76,7 @@ function MyReviews() {
       <div class="container">
         <ul>
           <li class="is-active"><a>My Reviews</a></li>
-          <li><a>Explore</a></li>
+          <li><a href='/explore'>Explore</a></li>
         </ul>
       </div>
     </nav>
