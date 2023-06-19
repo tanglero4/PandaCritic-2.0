@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.hero-body {
+  background-color: #99ff99
+}
+.hero-head {
+  background-color: #99ff99;
+}
+.hero-foot {
+  background-color: #99ff99;
+}

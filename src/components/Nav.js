@@ -2,17 +2,16 @@ import React from 'react';
 import 'bulma/css/bulma.min.css'
 
 
+
 const Nav = () => {
     return (
-<section class="hero is-primary is-medium">
+<section class="hero is-primary is-small">
   {/* <!-- Hero head: will stick at the top --> */}
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo"></img>
-          </a>
+          
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
@@ -21,14 +20,9 @@ const Nav = () => {
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item is-active">
-              Home
-            </a>
+           
             <a class="navbar-item">
-              Examples
-            </a>
-            <a class="navbar-item">
-              Documentation
+              Logout
             </a>
             <span class="navbar-item">
               <a class="button is-primary is-inverted">
@@ -48,10 +42,7 @@ const Nav = () => {
   <div class="hero-body">
     <div class="container has-text-centered">
       <p class="title">
-        Title
-      </p>
-      <p class="subtitle">
-        Subtitle
+        PandaCritic
       </p>
     </div>
   </div>
@@ -61,12 +52,8 @@ const Nav = () => {
     <nav class="tabs">
       <div class="container">
         <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
-          <li><a>Grid</a></li>
-          <li><a>Elements</a></li>
-          <li><a>Components</a></li>
-          <li><a>Layout</a></li>
+          <li class="is-active"><a>My Reviews</a></li>
+          <li><a>Explore</a></li>
         </ul>
       </div>
     </nav>
