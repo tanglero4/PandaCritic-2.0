@@ -71,7 +71,7 @@ function MyReviews() {
   </div>
 
   {/* <!-- Hero footer: will stick at the bottom --> */}
-  <div class="hero-foot">
+  <div class="hero-foot is-info">
     <nav class="tabs">
       <div class="container">
         <ul>

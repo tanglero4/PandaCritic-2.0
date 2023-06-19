@@ -37,6 +37,8 @@
   }
 }
 
+
+/* hero/nav controls */
 .hero-body {
   background-color: #99ff99
 }
@@ -44,5 +46,11 @@
   background-color: #99ff99;
 }
 .hero-foot {
-  background-color: #99ff99;
+  padding: 2px;
+}
+.is-active {
+  color: black;
+  background-color: #ccffff;
+  font-weight: bolder;
+  border-radius: 200%;
 }
