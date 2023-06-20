@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -12,7 +15,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.logo{
+  font-family: 'Cherry Bomb One', cursive;
+  font-size: 7vh;
+  color: rgb(158, 5, 158);
+}
+.links{
+  color: rgb(158, 5, 158);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
