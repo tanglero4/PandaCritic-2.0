@@ -1,40 +1,70 @@
-# PandaCritic-2.0
+# Getting Started with Create React App
 
- ## License
-![alt](https://img.shields.io/badge/License--blue)
-          
-## Table of Content 
-- [Project Description](#Description)
-- [Usage](#Usage)
-- [Contribution](#Contribution)
-- [Installation](#Installation)
-- [Tests](#Tests)
-- [Questions](#Questions)
-- [Email](#Email)
-- [Github](#Github)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
-If you're a foodie or a drink enthusiast, you know how important it is to keep track of the delicious items you've tried. PandaCritic is the perfect app for this, allowing you to easily log and rate the foods and drinks you've experienced. With a sleek and user-friendly interface, you can quickly add details such as photos, descriptions, and ratings, ensuring that you never forget your favorites. Plus, with the ability to search and filter through your reviews, you can easily find the perfect spot for your next meal or drink. Doing this project, we learned how to integrate MySQL and DBeaver into the project and how to deploy on Heroku as well as how to store information in the backend database.
+## Available Scripts
 
-## Usage
-Login into the account the user need to input their email and password. To sign up for a new account the user need to input their name, email, and create a new password. The user is then redirected to the maps page where they can click on the tabs for bar, restaurant, or boba shop. In the search bar, they can input a city and google maps will show they the locations in that city and a list will appear under the map that will display the locations, ratings, and addresses. When they click on "my review" on the top right of the navigation bar, the user will be redirected to their personal review page, where they can store the name, rating, description, and the restaurant name of any order the user has had. There is a log out button on the top navigation bar as well as a download button that will direct the user to the github repository for this project.
+In the project directory, you can run:
 
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Contributing
-Jarrett Stavey
-Tiffany Anglero
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installation
-User will need to install npm inquirer using the terminal on Vscode.
+### `npm test`
 
-## Tests
-run node server.js
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Questions 
-Contact
-Email: Jstavey13@icloud.com
-GitHub: https://github.com/JStavey13
+### `npm run build`
 
-Email: tiffanyanglero94@hotmail.com
-GitHub: https://github.com/tanglero4
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
