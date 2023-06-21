@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Moirai+One&display=swap');
 .App {
   text-align: center;
 }
@@ -16,9 +17,12 @@
   }
 }
 .logo{
-  font-family: 'Cherry Bomb One', cursive;
+  font-family: 'Moirai One', cursive;
   font-size: 7vh;
   color: rgb(158, 5, 158);
+}
+.subject{
+  font-family: 'Cherry Bomb One', cursive;
 }
 .links{
   color: rgb(158, 5, 158);
