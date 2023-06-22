@@ -15,7 +15,7 @@ const links = [
   
   export default function Nav() {
     return (
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <div className="flex items-center justify-center relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <img
           src="https://images.pexels.com/photos/248812/pexels-photo-248812.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
