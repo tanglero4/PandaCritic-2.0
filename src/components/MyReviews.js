@@ -37,17 +37,8 @@ function MyReviews() {
     <form>
       <div className="space-y-12">
         <div className="mt-6">
-          <img
-            className="mx-auto h-20 w-auto"
-            src="image/panda-logo.png"
-            alt="PandaCritic"
-          />
-          <h2 className="text-base font-semibold leading-7 text-gray-900 logo">PandaCritic</h2>
-          <p className="mt-4 text-sm leading-6 text-gray-600 subject">
-          🐼My personal reviews in one place🐼
-          </p>
 
- 
+
 
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-12 subject">
             
