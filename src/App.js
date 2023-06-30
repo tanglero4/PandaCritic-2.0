@@ -5,11 +5,13 @@ import Nav from './components/Nav'
 import Explore from './components/Explore';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
-      
-      <Nav />
+
+      <MyReviews/>
+
     </div>
   );
 }
