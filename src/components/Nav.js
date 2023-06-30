@@ -17,7 +17,7 @@ const links = [
     return (
       <div className="flex items-center justify-center relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <img
-          src="https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&w=600"
+          src="https://images.pexels.com/photos/1454794/pexels-photo-1454794.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
         />

@@ -10,6 +10,7 @@ import {
   Route
 } from "react-router-dom"
 import SignupForm from './components/SignupForm';
+import Explore from './components/Explore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/signupform" element={<SignupForm />} />
       <Route path="/loginform" element={<LoginForm />} />
+      <Route path="/explore" element={<Explore />} />
     </Routes>
   </BrowserRouter>
 );
