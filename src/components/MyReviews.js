@@ -54,8 +54,7 @@ function MyReviews() {
               <div className="mt-2">
                 <input
                   type="text"
-                  name="restaurant-name"
-                  id="restaurant-name"
+                  id="restaurant_name" name="restaurant_name"
                   autoComplete="given-name"
                   placeholder='Restaurant name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -68,8 +67,7 @@ function MyReviews() {
               <div className="mt-2">
                 <input
                   type="text"
-                  name="food-name"
-                  id="food-name"
+                 id="food_name" name="food_name"
                   autoComplete="given-name"
                   placeholder='Menu name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -82,8 +80,7 @@ function MyReviews() {
               <div className="mt-2">
                 <input
                   type="text"
-                  name="rating"
-                  id="rating"
+                  id="food_rating" name="food_rating"
                  placeholder="Rate me 🐼"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -94,8 +91,7 @@ function MyReviews() {
               </label>
               <div className="mt-2">
                 <textarea
-                  id="description"
-                  name="description"
+                 id="food_description" name="food_description"
                   rows={3}
                   placeholder="Write your critique, thoughts, Mhmmms and Ahhhs! "
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
