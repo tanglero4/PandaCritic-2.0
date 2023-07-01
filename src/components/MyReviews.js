@@ -48,7 +48,7 @@ function MyReviews() {
               
               
               <div className="mt-2">
-                <label htmlFor="restaurant-name" className="block text-sm font-medium leading-6 text-gray-900">
+                <label htmlFor="restaurant_name" className="block text-sm font-medium leading-6 text-gray-900">
                 Restaurant 
               </label>
               <div className="mt-2">
@@ -60,8 +60,9 @@ function MyReviews() {
                   placeholder='Restaurant name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+                {{restaurant_name}}
               </div>
-                 <label htmlFor="food-name" className="block text-sm font-medium leading-6 text-gray-900">
+                 <label htmlFor="food_name" className="block text-sm font-medium leading-6 text-gray-900">
                 Food/Drink name
               </label>
               <div className="mt-2">
@@ -73,8 +74,9 @@ function MyReviews() {
                   placeholder='Menu name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+                {{food_name}}
               </div>
-               <label htmlFor="rating" className="block text-sm font-medium leading-6 text-gray-900">
+               <label htmlFor="food_rating" className="block text-sm font-medium leading-6 text-gray-900">
                 Rating 
               </label>
               <div className="mt-2">
@@ -85,8 +87,9 @@ function MyReviews() {
                  placeholder="Rate me 🐼"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+                 {{food_rating}}
               </div>
-              <label htmlFor="description" className="block text-sm font-medium leading-6 text-gray-900">
+              <label htmlFor="food_description" className="block text-sm font-medium leading-6 text-gray-900">
                 What I thought...🤔
               </label>
               <div className="mt-2">
@@ -98,6 +101,7 @@ function MyReviews() {
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   defaultValue={''}
                 />
+                {{food_description}}
               </div>
 
 

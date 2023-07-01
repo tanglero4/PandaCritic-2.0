@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Moirai+One&display=swap');
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
