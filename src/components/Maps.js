@@ -23,3 +23,11 @@ function newLocation(city) {
   }
 }
 
+function getPosition(position) {
+  let lat = position.coords.latitude;
+  let long = position.coords.longitude;
+
+  googleMap(lat, long);
+  getTea(lat, long);
+}
+
