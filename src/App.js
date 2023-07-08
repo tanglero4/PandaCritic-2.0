@@ -9,8 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-<Nav/>
-      <MyReviews/>
+      <Explore/>
 
     </div>
   );
