@@ -8,15 +8,18 @@ import Bar from "../image/bar.jpg";
 const features = [
   {
     name: 'Tea Shops',
-    image: Tea
+    image: Tea,
+    link: "/tea"
   },
   {
     name: 'Restaurants',
-    image: Restaurant
+    image: Restaurant,
+    link: "/restaurants"
   },
   {
     name: 'Bars',
-    image: Bar
+    image: Bar,
+    link: "/bars"
   },
 ];
 
@@ -29,11 +32,13 @@ export default function Explore() {
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 justify-center lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
               {features.map((feature) => (
-                <div key={feature.name} className="relative">
+                <div key={feature.name}  className="relative">
                   <div className="h-40 w-90vw sm:w-80 mx-auto flex items-center justify-center rounded-lg bg-indigo-600">
                     <img src={feature.image} alt="Bootcamp" className="max-h-full max-w-full text-white" />
                   </div>
-                  <dt className="text-base font-semibold leading-7 text-gray-900 text-center mt-2">{feature.name}</dt>
+                  <dt className="text-base font-semibold leading-7 text-gray-900 text-center mt-2" >
+                  <a href={feature.link}>{feature.name}</a>
+                  </dt>
                 </div>
               ))}
             </dl>

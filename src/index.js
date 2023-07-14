@@ -11,6 +11,10 @@ import {
 } from "react-router-dom"
 import SignupForm from './components/SignupForm';
 import Explore from './components/Explore';
+import MyReviews from './components/MyReviews';
+import Tea from './components/Tea'
+import Restaurants from './components/Restaurants'
+import Bars from './components/Bars'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +24,10 @@ root.render(
       <Route path="/signupform" element={<SignupForm />} />
       <Route path="/loginform" element={<LoginForm />} />
       <Route path="/explore" element={<Explore />} />
+      <Route path="/myreviews" element={<MyReviews />} />
+      <Route path="/tea" element={<Tea />} />
+      <Route path="/restaurants" element={<Restaurants />} />
+      <Route path="/bars" element={<Bars />} />
     </Routes>
   </BrowserRouter>
 );
