@@ -59,7 +59,7 @@ function MyReviews() {
                   placeholder='Restaurant name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
-                {{restaurant_name}}
+                {/* {{restaurant_name}} */}
               </div>
                  <label htmlFor="food_name" className="block text-sm font-medium leading-6 text-gray-900">
                 Food/Drink name
@@ -72,7 +72,7 @@ function MyReviews() {
                   placeholder='Menu name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
-                {{food_name}}
+                {/* {{food_name}} */}
               </div>
                <label htmlFor="food_rating" className="block text-sm font-medium leading-6 text-gray-900">
                 Rating 
@@ -84,7 +84,7 @@ function MyReviews() {
                  placeholder="Rate me 🐼"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
-                 {{food_rating}}
+                 {/* {{food_rating}} */}
               </div>
               <label htmlFor="food_description" className="block text-sm font-medium leading-6 text-gray-900">
                 What I thought...🤔
@@ -97,7 +97,7 @@ function MyReviews() {
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   defaultValue={''}
                 />
-                {{food_description}}
+                {/* {{food_description}} */}
               </div>
 
 
@@ -113,11 +113,11 @@ function MyReviews() {
                 </label>
                 <p class="pl-1">or drag and drop</p>
               </div>
-              <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>
+              <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>               
             </div>
               </div>
                           
-          
+    
               </div>
                      <div className="mt-6 flex items-center justify-end gap-x-6">
         <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
