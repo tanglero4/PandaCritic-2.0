@@ -39,7 +39,7 @@ export default function Explore() {
                   <div className="h-40 w-90vw sm:w-80 mx-auto flex items-center justify-center rounded-lg bg-indigo-600">
                     <img src={feature.image} alt="Bootcamp" className="max-h-full max-w-full text-white image" />
                   </div>
-                  <dt className="text-base font-semibold leading-7 text-gray-900 text-center mt-2" >
+                  <dt className="explore-name text-base font-semibold leading-7 text-gray-900 text-center mt-2" >
                   <a href={feature.link}>{feature.name}</a>
                   </dt>
                 </div>
@@ -48,6 +48,6 @@ export default function Explore() {
           </div>
 
       {/* // </div> */}
-    // </div>
+     </div>
   );
 }

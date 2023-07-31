@@ -79,3 +79,11 @@
   border: 20px;
   border-color: black;
 }
+
+.explore-name {
+  background-color: purple;
+  width: 300;
+  justify-self: center;
+  flex: auto;
+  
+}
