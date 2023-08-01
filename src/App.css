@@ -76,13 +76,12 @@
 .image {
   border-radius: 10%;
   width: 300px;
-  border: 20px;
   border-color: black;
 }
 
 .explore-name {
   background-color: purple;
-  width: 300;
+  width: 300px;
   justify-self: center;
   flex: auto;
   
