@@ -48,56 +48,56 @@ function MyReviews() {
               
               
               <div className="mt-2">
-                <label htmlFor="restaurant-name" className="block text-sm font-medium leading-6 text-gray-900">
+                <label htmlFor="restaurant_name" className="block text-sm font-medium leading-6 text-gray-900">
                 Restaurant 
               </label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="restaurant-name"
-                  id="restaurant-name"
+                  id="restaurant_name" name="restaurant_name"
                   autoComplete="given-name"
                   placeholder='Restaurant name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+                {/* {{restaurant_name}} */}
               </div>
-                 <label htmlFor="food-name" className="block text-sm font-medium leading-6 text-gray-900">
+                 <label htmlFor="food_name" className="block text-sm font-medium leading-6 text-gray-900">
                 Food/Drink name
               </label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="food-name"
-                  id="food-name"
+                 id="food_name" name="food_name"
                   autoComplete="given-name"
                   placeholder='Menu name'
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+                {/* {{food_name}} */}
               </div>
-               <label htmlFor="rating" className="block text-sm font-medium leading-6 text-gray-900">
+               <label htmlFor="food_rating" className="block text-sm font-medium leading-6 text-gray-900">
                 Rating 
               </label>
               <div className="mt-2">
                 <input
                   type="text"
-                  name="rating"
-                  id="rating"
+                  id="food_rating" name="food_rating"
                  placeholder="Rate me 🐼"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
+                 {/* {{food_rating}} */}
               </div>
-              <label htmlFor="description" className="block text-sm font-medium leading-6 text-gray-900">
+              <label htmlFor="food_description" className="block text-sm font-medium leading-6 text-gray-900">
                 What I thought...🤔
               </label>
               <div className="mt-2">
                 <textarea
-                  id="description"
-                  name="description"
+                 id="food_description" name="food_description"
                   rows={3}
                   placeholder="Write your critique, thoughts, Mhmmms and Ahhhs! "
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   defaultValue={''}
                 />
+                {/* {{food_description}} */}
               </div>
 
 
@@ -113,11 +113,11 @@ function MyReviews() {
                 </label>
                 <p class="pl-1">or drag and drop</p>
               </div>
-              <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>
+              <p class="text-xs leading-5 text-gray-600">PNG, JPG, GIF up to 10MB</p>               
             </div>
               </div>
                           
-          
+    
               </div>
                      <div className="mt-6 flex items-center justify-end gap-x-6">
         <button type="button" className="text-sm font-semibold leading-6 text-gray-900">

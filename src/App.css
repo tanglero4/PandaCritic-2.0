@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Moirai+One&display=swap');
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -11,11 +12,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 .logo{
   font-family: 'Moirai One', cursive;
   font-size: 7vh;
@@ -57,6 +54,7 @@
   color: green */
 }
 
+
 #explore-banner {
   background-color: purple;
   margin-bottom: 20px;
@@ -85,4 +83,10 @@
   justify-self: center;
   flex: auto;
   
+=======
+@media (prefers-reduced-motion: no-preference) {
+* {
+  scroll-behavior: smooth;
+}
+
 }
