@@ -61,14 +61,14 @@
   padding: 10px;
   font-size: 20px;
   font-weight: bolder;
-  color: wheat
+  color: white;
 }
 
 #explore-box {
   margin: 5px;
   height: 100px;
   flex: auto;
-
+  
 }
 
 .image {
@@ -82,8 +82,10 @@
   width: 300px;
   justify-self: center;
   flex: auto;
-  
-=======
+  border-radius: 6px;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 * {
   scroll-behavior: smooth;
