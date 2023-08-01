@@ -11,10 +11,7 @@ function App() {
     <div className="App">
       <Explore/>
 =======
-<Nav/>
-<LoginForm/>
-      <MyReviews/>
-<SignupForm/>
+
     </div>
   );
 }
