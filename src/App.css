@@ -53,8 +53,40 @@
   font-size: x-small;
   color: green */
 }
+
+
+#explore-banner {
+  background-color: purple;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: wheat
+}
+
+#explore-box {
+  margin: 5px;
+  height: 100px;
+  flex: auto;
+
+}
+
+.image {
+  border-radius: 10%;
+  width: 300px;
+  border-color: black;
+}
+
+.explore-name {
+  background-color: purple;
+  width: 300px;
+  justify-self: center;
+  flex: auto;
+  
+=======
 @media (prefers-reduced-motion: no-preference) {
 * {
   scroll-behavior: smooth;
 }
+
 }
