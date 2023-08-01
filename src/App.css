@@ -82,8 +82,8 @@
   width: 300px;
   justify-self: center;
   flex: auto;
-  
-=======
+}
+
 @media (prefers-reduced-motion: no-preference) {
 * {
   scroll-behavior: smooth;
